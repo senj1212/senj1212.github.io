@@ -1,9 +1,12 @@
-body {
+body{
     margin: 0;
     padding: 0;
     background-color: #2B2729;
 }
 
+h1{
+    font-size: 40px;
+}
 
 .bar{
     font-size: 16px;
@@ -13,10 +16,5 @@ body {
 .bar_link{
     display: inline-block;
     vertical-align: top;
-    color: #AE4181;
-    text-decoration: none;
-}
-
-.bar_link:hover{
-    color: #A3CD4C;
+    margin: 0 10px;
 }
