@@ -1,20 +1,67 @@
 body{
+    z-index: 0;
+    width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #2B2729;
+    background-color: #000;
 }
 
-h1{
-    font-size: 40px;
+#mask{
+    pointer-events: none;
+    z-index: 50;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0.2), rgba(0,0,0,0.2), rgba(0,0,0,0.9));
 }
 
+a{
+    text-decoration: none;
+    font-family: 'Metal Mania', cursive;
+}
+/*Header*/
+header{
+    border-top: 2px dashed #5D5047;
+    background: url('../img/skin.png') repeat-x ;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.logo{
+    text-shadow: 2px 2px 0px #434343,
+                 -2px -2px 0px #434343;
+    font-size: 90px;
+    color: #251803;
+}
+
+#lineBar{
+    margin: auto;
+    border-top: 2px dashed #5D5047;
+    width: 40%;
+}
+
+/* Context menu */
 .bar{
-    font-size: 16px;
+    font-size: 35px;
     text-transform: uppercase;
+    margin: 5px;
+    margin-bottom: 120px;
 }
 
 .bar_link{
+    color: #7d7267;
+    text-shadow: 1px 1px 0px #636363,
+                 -1px -1px 0px #636363;
     display: inline-block;
     vertical-align: top;
-    margin: 0 10px;
+    padding: 3px;
+    margin: 5px;
 }
+
+.bar_link:hover{
+    outline: 2px dashed #5D5047;
+}
+/* End --Context menu-- */
+/* End --Header-- */
