@@ -49,6 +49,10 @@ header{
     margin-bottom: 120px;
 }
 
+.bar:hover{
+    cursor: default;
+}
+
 .bar_link{
     color: #7d7267;
     text-shadow: 1px 1px 0px #636363,
@@ -60,6 +64,7 @@ header{
 }
 
 .bar_link:hover{
+    cursor: default;
     outline: 2px dashed #5D5047;
 }
 /* End --Context menu-- */
@@ -67,15 +72,22 @@ header{
 
 /* Content */
 .content{
-    display: table;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
-.table{
-    width: 30%;
-    margin: 0 auto;
-    color: white;
-    background: url("../img/table.png") no-repeat;
+.project{
+    padding-top: 10px;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    color: #fff;
+    margin: 4%;
+    float: left;
+    text-align: center;
+    outline: 3px dashed #5D5047;
+}
+.project:hover{
+
 }
 /* End --Content-- */
