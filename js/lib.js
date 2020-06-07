@@ -23,7 +23,7 @@ function loadPy(){
         console.log(data);
         for (var key in data){
             out += '<div class="project">';
-            out += '<img src="'+data[key].img+'">';
+            out += '<img src="'+data[key].img+'" width="220" height="160">';
             out += '<p>'+data[key].name+'</p>';
             out += '<p>'+data[key].desc+'</p>';
             out += '</div>';
@@ -37,7 +37,7 @@ function loadC(){
         var out = '';
         for (var key in data){
             out += '<div class="project">';
-            out += '<img src="'+data[key].img+'">';
+            out += '<img src="'+data[key].img+'" width="220" height="160">';
             out += '<p>'+data[key].name+'</p>';
             out += '<p>'+data[key].desc+'</p>';
             out += '</div>';
