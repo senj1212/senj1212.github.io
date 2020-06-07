@@ -7,12 +7,12 @@
     },
     "0002" : {
         "name": "One project",
-        "img": "img/c.png",
-        "desc": "Новый бот"
+        "img": "img/.png",
+        "desc": "Описание"
     },
     "0003" : {
         "name": "One project",
-        "img": "img/c.png",
-        "desc": "Новый бот"
+        "img": "img/.png",
+        "desc": "Описание"
     }
 }
