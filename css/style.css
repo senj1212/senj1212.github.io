@@ -125,14 +125,8 @@ header{
 /* Footer */
 footer{
     width: 80%;
-    height: auto;
     margin: 0 auto;
-    background-color: #fff;
     padding-top: 20px
-}
-
-.contacts{
-    margin: 0 auto;
 }
 
 /* End --Footer-- */

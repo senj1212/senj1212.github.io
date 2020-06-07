@@ -20,7 +20,6 @@ function loadPage(){
 function loadProjects(nameJSON){
     $.getJSON(nameJSON, function (data){
         var out = '';
-        console.log(data);
         for (var key in data){
             out += '<div class="project">';
             out += '<img class="img_table" src="'+data[key].img+'" width="230" height="160">';
