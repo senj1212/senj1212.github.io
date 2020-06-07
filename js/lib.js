@@ -4,10 +4,10 @@ $('ducument').ready(function(){
 
 function loadPage(){
     $('#PyLink').click(function(){
-        loadPy();
+        loadProjects('projectPy.json');
     });
     $('#CLink').click(function(){
-        loadC();
+        loadProjects('projectC.json');
     });
     $('#LuaLink').click(function(){
         alert("Данный раздел временно пуст");
@@ -17,31 +17,18 @@ function loadPage(){
     });
 }
 
-function loadPy(){
-    $.getJSON('projectPy.json', function (data){
+function loadProjects(nameJSON){
+    $.getJSON(nameJSON, function (data){
         var out = '';
         console.log(data);
         for (var key in data){
             out += '<div class="project">';
-            out += '<img src="'+data[key].img+'" width="220" height="160">';
-            out += '<p>'+data[key].name+'</p>';
-            out += '<p>'+data[key].desc+'</p>';
+            out += '<img class="img_table" src="'+data[key].img+'" width="230" height="160">';
+            out += '<p class="line_img"></p>'
+            out += '<p class="nameProject">'+data[key].name+'</p>';
+            out += '<p class="descProject">'+data[key].desc+'</p>';
             out += '</div>';
         }
-        $('#tables').html(out);
-    })
-}
-
-function loadC(){
-    $.getJSON('projectC.json', function (data){
-        var out = '';
-        for (var key in data){
-            out += '<div class="project">';
-            out += '<img src="'+data[key].img+'" width="220" height="160">';
-            out += '<p>'+data[key].name+'</p>';
-            out += '<p>'+data[key].desc+'</p>';
-            out += '</div>';
-        }
-        $('#tables').html(out);
+        $('.table').html(out);
     })
 }

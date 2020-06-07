@@ -2,17 +2,17 @@
 {
     "0001" : {
         "name": "One project",
-        "img": "img/c.png",
+        "img": "img/.png",
         "desc": "Новый бот"
     },
     "0002" : {
         "name": "One project",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     },
     "0003" : {
         "name": "One project",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     }
 }

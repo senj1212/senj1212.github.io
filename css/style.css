@@ -1,3 +1,6 @@
+html{
+}
+
 body{
     width: 100%;
     width: 100%;
@@ -76,22 +79,60 @@ header{
 }
 
 .table{
+    text-align: center;
     width: 80%;
     margin: 0 auto;
 }
 
 .project{
-    float: left;
+    z-index: 1;
+    display: inline-block;
+    margin: 40px 20px;
     padding-top: 10px;
-    background-size: 250px 350px;
     width: 250px;
     height: 350px;
     color: #fff;
-    margin: 20px;
     text-align: center;
-    outline: 3px dashed #5D5047;
+    outline: 4px dashed #5D5047;
+    transition: all 0.3s ease;
 }
-.project:hover{
 
+.project:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.line_img{
+    margin: 5px auto;
+    width: 170px;
+    outline: 1px dashed #5D5047;
+}
+
+.nameProject{
+    font-size: 20px;
+}
+
+.descProject{
+    font-size: 16px;
+}
+
+.img_table{
 }
 /* End --Content-- */
+
+/* Footer */
+footer{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 20px
+}
+
+.contacts{
+    margin: 0 auto;
+}
+
+/* End --Footer-- */

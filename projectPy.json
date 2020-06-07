@@ -1,33 +1,33 @@
 
 {
     "0001" : {
-        "name": "One project",
+        "name": "One bot",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     },
     "0002" : {
-        "name": "One project",
+        "name": "One bot",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     },
     "0003" : {
-        "name": "One project",
+        "name": "One bot",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     },
     "0004" : {
-        "name": "One project",
+        "name": "One bot",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     },
     "0005" : {
-        "name": "One project",
+        "name": "One bot",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     },
     "0006" : {
-        "name": "One project",
+        "name": "One bot",
         "img": "img/.png",
-        "desc": "Описание"
+        "desc": "Новый бот"
     }
 }
