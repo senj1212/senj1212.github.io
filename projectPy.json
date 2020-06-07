@@ -14,5 +14,20 @@
         "name": "One bot",
         "img": "img/python.png",
         "desc": "Новый бот"
+    },
+    "0004" : {
+        "name": "One bot",
+        "img": "img/python.png",
+        "desc": "Новый бот"
+    },
+    "0005" : {
+        "name": "One bot",
+        "img": "img/python.png",
+        "desc": "Новый бот"
+    },
+    "0006" : {
+        "name": "One bot",
+        "img": "img/python.png",
+        "desc": "Новый бот"
     }
 }

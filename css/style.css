@@ -24,7 +24,6 @@ header{
     border-top: 2px dashed #5D5047;
     background: url('../img/skin.png') repeat-x ;
     width: 100%;
-    display: table;
     text-align: center;
 }
 
@@ -61,6 +60,7 @@ header{
     vertical-align: top;
     padding: 3px;
     margin: 5px;
+    margin-bottom: 20px;
 }
 
 .bar_link:hover{
@@ -72,18 +72,22 @@ header{
 
 /* Content */
 .content{
+    width: 100%;
+}
+
+.table{
     width: 80%;
     margin: 0 auto;
 }
 
 .project{
+    float: left;
     padding-top: 10px;
     background-size: 250px 350px;
     width: 250px;
     height: 350px;
     color: #fff;
-    margin: 4%;
-    float: left;
+    margin: 20px;
     text-align: center;
     outline: 3px dashed #5D5047;
 }

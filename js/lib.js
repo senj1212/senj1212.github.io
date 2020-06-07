@@ -19,8 +19,8 @@ function loadPage(){
 
 function loadPy(){
     $.getJSON('projectPy.json', function (data){
-        console.log("1");
         var out = '';
+        console.log(data);
         for (var key in data){
             out += '<div class="project">';
             out += '<img src="'+data[key].img+'">';
@@ -33,7 +33,6 @@ function loadPy(){
 }
 
 function loadC(){
-    console.log("2");
     $.getJSON('projectC.json', function (data){
         var out = '';
         for (var key in data){
