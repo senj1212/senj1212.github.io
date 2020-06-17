@@ -134,10 +134,15 @@ footer{
 
 /* End --Footer-- */
 
-::-webkit-scrollbar { width: 2px; height: 2px;}
-::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar { width: 0px; height: 0px;}
+/* ::-webkit-scrollbar-button {  background-color: #666; }
 ::-webkit-scrollbar-track {  background-color: #999;}
 ::-webkit-scrollbar-track-piece { background-color: #ffffff;}
 ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
 ::-webkit-scrollbar-corner { background-color: #999;}}
-::-webkit-resizer { background-color: #666;}
+::-webkit-resizer { background-color: #666;} */
+
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+::-o-selection { background: transparent; }
+::-webkit-selection { background: transparent; }
