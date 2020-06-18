@@ -25,7 +25,8 @@ function loadProjects(nameJSON){
             out += '<img class="img_table" src="'+data[key].img+'" width="230" height="160">';
             out += '<p class="line_img"></p>'
             out += '<p class="nameProject">'+data[key].name+'</p>';
-            out += '<p class="descProject">'+data[key].desc+'</p>';
+            if (data[key].desc.length < 170) out += '<p class="descProject">'+data[key].desc+'</p>';
+            else out += '<p class="descProject">Описание слишком длинное</p>'
             out += '</div>';
         }
         $('.table').html(out);
