@@ -60,7 +60,6 @@ header{
     color: #7d7267;
     text-shadow: 1px 1px 0px #636363,
                  -1px -1px 0px #636363;
-    display: inline-block;
     vertical-align: top;
     padding: 3px;
     margin: 5px;
@@ -121,6 +120,7 @@ header{
 }
 
 .img_table{
+    margin: 2px;
 }
 /* End --Content-- */
 
