@@ -79,7 +79,11 @@ header{
 }
 
 .table{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     margin: 0 auto;
 }
