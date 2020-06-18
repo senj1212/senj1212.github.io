@@ -3,7 +3,6 @@ $('ducument').ready(function(){
 });
 
 function loadPage(){
-    loadResum("resum.json");
     $('#logotype').click(function(){
         loadResum("resum.json");
     });
@@ -19,6 +18,7 @@ function loadPage(){
     $('#JSLink').click(function(){
         alert("Данный раздел временно пуст");
     });
+    loadResum("resum.json");
 }
 
 function loadProjects(nameJSON){
