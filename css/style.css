@@ -93,14 +93,13 @@ header{
     z-index: 1;
     margin: 40px 20px;
     padding-top: 10px;
-    min-width: 250px;
-    min-height: 350px;
-    max-width: 250px;
-    max-height: 350px;
+    width: 250px;
+    height: 350px;
     color: #fff;
     text-align: center;
     outline: 4px dashed #5D5047;
     transition: all 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .project:hover{
@@ -121,6 +120,7 @@ header{
 }
 
 .descProject{
+    word-wrap: break-word;
     font-size: 16px;
 }
 
