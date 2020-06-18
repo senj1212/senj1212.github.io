@@ -74,6 +74,11 @@ header{
 /* End --Header-- */
 
 /* Content */
+/* Resume */
+.resume p{
+    color: #b8b8b8;
+}
+/* End --Resume-- */
 .content{
     width: 100%;
 }
