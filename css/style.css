@@ -89,6 +89,7 @@ header{
 }
 
 .project{
+    word-wrap: break-word;
     z-index: 1;
     margin: 40px 20px;
     padding-top: 10px;
