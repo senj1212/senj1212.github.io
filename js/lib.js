@@ -48,6 +48,6 @@ function loadResum(nameJSON){
         out += '<p id="myExp">'+data.exp+'</p>';
         out += '<p id="myContact">'+data.contact+'</p>';
         out += '</div>';
-        $('main').html(out);
+        $('.Resume').html(out);
     })
 }
