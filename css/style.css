@@ -75,7 +75,9 @@ header{
 
 /* Content */
 /* Resume */
-
+.resume{
+    width: 50%;
+}
 #myName{
     font-size: 40px;
     border-bottom: 2px dashed #5D5047;
@@ -84,19 +86,19 @@ header{
     font-size: 18px;
 }
 #myDesc{
-    font-size: 36px;
+    font-size: 22px;
 
 }
 #myKnow{
-    font-size: 36px;
+    font-size: 22px;
 
 }
 #myExp{
-    font-size: 36px;
+    font-size: 22px;
 
 }
 #myContact  {
-    font-size: 36px;
+    font-size: 14px;
 
 }
 /* End --Resume-- */
