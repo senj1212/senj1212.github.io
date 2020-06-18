@@ -80,6 +80,26 @@ header{
     font-size: 36px;
     border-bottom: 2px dashed #5D5047;
 }
+#myDate{
+    font-size: 36px;
+    border-bottom: 2px dashed #5D5047;
+}
+#myDesc{
+    font-size: 36px;
+    border-bottom: 2px dashed #5D5047;
+}
+#myKnow{
+    font-size: 36px;
+    border-bottom: 2px dashed #5D5047;
+}
+#myExp{
+    font-size: 36px;
+    border-bottom: 2px dashed #5D5047;
+}
+#myContact{
+    font-size: 36px;
+    border-bottom: 2px dashed #5D5047;
+}
 /* End --Resume-- */
 .content{
     display: flex;
