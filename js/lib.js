@@ -44,7 +44,7 @@ function loadResum(nameJSON){
         out += '<p id="myName">'+data.name+'</p>';
         out += '<p id="myDate">'+data.date+'</p>';
         for (var key in data.desc){
-            out += '<p id="myDesc">'+key+'</p>';
+            out += '<p id="myDesc">'+data.desc[key]+'</p>';
         }
         out += '<p id="myKnow">'+data.know+'</p>';
         out += '<p id="myExp">'+data.exp+'</p>';
