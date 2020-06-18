@@ -1,8 +1,8 @@
 {
     "name": "Гуртовой Семён",
-    "date": "03.04.2002",
+    "date": "Дата рождения: 03.04.2002",
     "desc": "",
-    "know":["C#", "Python", "Lua", "JS"],
+    "know":["C# -- < года", "Python -- > 3-х лет"],
     "exp":"",
     "contact":["Telegram - @senj1212", "WhatsApp - senj1212"]
 }
