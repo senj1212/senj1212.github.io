@@ -25,7 +25,7 @@ a{
 }
 /*Header*/
 header{
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     border-top: 2px dashed #5D5047;
     background: url('../img/skin.png') repeat-x ;
     width: 100%;
