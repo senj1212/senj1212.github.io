@@ -3,6 +3,10 @@ $('ducument').ready(function(){
 });
 
 function loadPage(){
+    loadResum("resum.json");
+    $('#logotype').click(function(){
+        loadResum("resum.json");
+    });
     $('#PyLink').click(function(){
         loadProjects('projectPy.json');
     });
@@ -29,6 +33,21 @@ function loadProjects(nameJSON){
             else out += '<p class="descProject">Описание слишком длинное</p>'
             out += '</div>';
         }
+        $('.table').html(out);
+    })
+}
+
+function loadResum(nameJSON){
+    $.getJSON(nameJSON, function (data){
+        var out = '';
+        out += '<div class="resume">';
+        out += '<p id="myName">'+data.name+'</p>';
+        out += '<p id="myDate">'+data.date+'</p>';
+        out += '<p id="myDesc">'+data.desc+'</p>';
+        out += '<p id="myKnow">'+data.know+'</p>';
+        out += '<p id="myExp">'+data.exp+'</p>';
+        out += '<p id="myContact">'+data.contact+'</p>';
+        out += '</div>';
         $('.table').html(out);
     })
 }
