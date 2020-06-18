@@ -85,15 +85,15 @@ header{
 }
 /* End --Resume-- */
 .content{
-    width: 100%;
-}
-
-.table{
     display: flex;
     justify-content: center;
     align-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+.table{
     width: 80%;
     margin: 0 auto;
 }

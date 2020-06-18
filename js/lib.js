@@ -24,7 +24,6 @@ function loadPage(){
 function loadProjects(nameJSON){
     $.getJSON(nameJSON, function (data){
         var out = '';
-        out += '<div class="content">';
         out += '<div class="table" id="tables">';
         for (var key in data){
             out += '<div class="project">';
@@ -36,15 +35,13 @@ function loadProjects(nameJSON){
             out += '</div>';
         }
         out += '</div>';
-        out += '</div>';
-        $('main').html(out);
+        $('.content').html(out);
     })
 }
 
 function loadResum(nameJSON){
     $.getJSON(nameJSON, function (data){
         var out = '';
-
         out += '<div class="resume">';
         out += '<p id="myName">'+data.name+'</p>';
         out += '<p id="myDate">'+data.date+'</p>';
@@ -55,7 +52,6 @@ function loadResum(nameJSON){
         out += '<p id="myExp">'+data.exp+'</p>';
         out += '<p id="myContact">'+data.contact+'</p>';
         out += '</div>';
-
-        $('main').html(out);
+        $('.content').html(out);
     })
 }
