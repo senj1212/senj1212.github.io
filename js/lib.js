@@ -33,13 +33,15 @@ function loadProjects(nameJSON){
             else out += '<p class="descProject">Описание слишком длинное</p>'
             out += '</div>';
         }
-        $('.table').html(out);
+        $('main').html(out);
     })
 }
 
 function loadResum(nameJSON){
     $.getJSON(nameJSON, function (data){
         var out = '';
+        out += '<div class="content">';
+        out += '<div class="table" id="tables">';
         out += '<div class="resume">';
         out += '<p id="myName">'+data.name+'</p>';
         out += '<p id="myDate">'+data.date+'</p>';
@@ -48,6 +50,8 @@ function loadResum(nameJSON){
         out += '<p id="myExp">'+data.exp+'</p>';
         out += '<p id="myContact">'+data.contact+'</p>';
         out += '</div>';
-        $('.Resume').html(out);
+        out += '</div>';
+        out += '</div>';
+        $('main').html(out);
     })
 }
