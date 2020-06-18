@@ -24,7 +24,6 @@ function loadPage(){
 function loadProjects(nameJSON){
     $.getJSON(nameJSON, function (data){
         var out = '';
-
         for (var key in data){
             out += '<div class="project">';
             out += '<img class="img_table" src="'+data[key].img+'" width="230" height="160">';
@@ -34,7 +33,6 @@ function loadProjects(nameJSON){
             else out += '<p class="descProject">Описание слишком длинное</p>'
             out += '</div>';
         }
-        
         $('.content').html(out);
     })
 }
