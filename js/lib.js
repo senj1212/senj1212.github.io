@@ -12,8 +12,8 @@ function loadPage(){
     $('#CLink').click(function(){
         loadProjects('projectC.json');
     });
-    $('#LuaLink').click(function(){
-        alert("Данный раздел временно пуст");
+    $('#PixLink').click(function(){
+        loadProjects('projectPix.json');
     });
     $('#JSLink').click(function(){
         alert("Данный раздел временно пуст");
