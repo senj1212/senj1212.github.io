@@ -43,7 +43,7 @@ function loadResum(nameJSON){
         out += '<div class="resume">';
         out += '<p id="myName">'+data.name+'</p>';
         out += '<p id="myDate">'+data.date+'</p>';
-        out += '<p id="myDesc">'+data.desc[key]+'</p>';
+        out += '<p id="myDesc">'+data.desc+'</p>';
         out += '<p id="myKnow">'+data.know+'</p>';
         out += '<p id="myExp">'+data.exp+'</p>';
         out += '<p id="myContact">'+data.contact+'</p>';
