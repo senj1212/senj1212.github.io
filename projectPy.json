@@ -2,32 +2,32 @@
 {
     "0001" : {
         "name": "senj_CryptoPrice",
-        "img": "img/cryptoBot.png",
+        "img": "img/py/cryptoBot.png",
         "desc": "Бот создан для помощи в отслеживании цен криптовалют. Динамическое отслеживание и огромный спектр. Команда /crypt [название валюты] позволит получить цену любой валюты."
     },
     "0002" : {
         "name": "One bot",
-        "img": "img/.png",
+        "img": "img/py/.png",
         "desc": "Новый бот"
     },
     "0003" : {
         "name": "One bot",
-        "img": "img/.png",
+        "img": "img/py/.png",
         "desc": "Новый бот"
     },
     "0004" : {
         "name": "One bot",
-        "img": "img/.png",
+        "img": "img/py/.png",
         "desc": "Новый бот"
     },
     "0005" : {
         "name": "One bot",
-        "img": "img/.png",
+        "img": "img/py/.png",
         "desc": "Новый бот"
     },
     "0006" : {
         "name": "One bot",
-        "img": "img/.png",
+        "img": "img/py/.png",
         "desc": "Новый бот"
     }
 }
