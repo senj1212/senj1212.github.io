@@ -26,7 +26,7 @@ function loadProjects(nameJSON){
         var out = '';
         for (var key in data){
             out += '<div class="project">';
-            out += '<div class="img_table" width="230" height="160"><img class="img_table" src="'+data[key].img+'"></div>';
+            out += '<img class="img_table" src="'+data[key].img+'" width="230" height="160">';
             out += '<p class="line_img"></p>'
             out += '<p class="nameProject">'+data[key].name+'</p>';
             if (data[key].desc.length < 170) out += '<p class="descProject">'+data[key].desc+'</p>';
