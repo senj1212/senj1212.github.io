@@ -46,6 +46,7 @@ function loadResum(nameJSON){
         out += '<p id="myDesc">'+data.desc+'</p>';
         out += '<p id="myKnow">'+data.know+'</p>';
         out += '<p id="myExp">'+data.exp+'</p>';
+        out += '<p id="myPS">'+data.ps+'</p>';
         out += '<p id="myContact">'+data.contact+'</p>';
         out += '</div>';
         $('.content').html(out);
