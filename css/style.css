@@ -97,6 +97,10 @@ header{
     font-size: 22px;
 
 }
+#myPS{
+    color: #F3F0A9;
+	font-size: 18px;
+}
 #myContact  {
     font-size: 14px;
 
@@ -152,9 +156,7 @@ header{
 
 .img_table{
 }
-#myPS{
-    color: #F3F0A9;
-}
+
 /* End --Content-- */
 
 /* Footer */
