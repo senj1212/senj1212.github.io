@@ -14,5 +14,10 @@
         "name": "LouMag_img_1",
         "img": "img/pixelArt/hero_mag.gif",
         "desc": "Анимация героя в малом кол-ве пикселей."
+    },
+	"0004" : {
+        "name": "monster_1_full",
+        "img": "img/pixelArt/monster_1_full.gif",
+        "desc": "Анимация монстра-ловушки."
     }
 }
